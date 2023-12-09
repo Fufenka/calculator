@@ -10,9 +10,6 @@
     "lint": "eslint --ext .js .",
     "dev": "electron .",
     "postinstall": "electron-builder install-app-deps",
-    "build:win": "electron-builder --win --config",
-    "build:mac": "electron-builder --mac --config",
-    "build:linux": "electron-builder --linux --config"
   },
   "dependencies": {
     "@electron-toolkit/preload": "^2.0.0",
